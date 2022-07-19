@@ -7,7 +7,7 @@ class Config:
     API_HASH = "0e96dd0dd4c4c9ded27c2ef58e6ab112" #os.environ.get('API_HASH')
     BOT_TOKEN = "5459940804:AAFV-7L9uCA-D0006tEQvkVkpH9r6WKbp9U" #os.environ.get('BOT_TOKEN')
     SESSION_NAME = os.environ.get('SESSION_NAME', ':memory:')
-    LOG_CHANNEL = -1644643944 #int(os.environ.get('LOG_CHANNEL'))
+    LOG_CHANNEL = -1001644643944 #int(os.environ.get('LOG_CHANNEL'))
     DATABASE_URL = "mongodb+srv://A:A@cluster0.i6jm9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" #os.environ.get('DATABASE_URL')
     AUTH_USERS = [1266733572 1266733572] #[int(i) for i in os.environ.get('AUTH_USERS', '').split(' ')]
     MAX_PROCESSES_PER_USER = int(os.environ.get('MAX_PROCESSES_PER_USER', 2))
