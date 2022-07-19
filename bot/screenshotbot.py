@@ -1,7 +1,6 @@
 from pyrogram import Client
 
 from .config import Config
-from .database import Database
 
 
 ScreenShotBot = Client(
